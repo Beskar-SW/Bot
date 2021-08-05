@@ -25,24 +25,6 @@ def getBotinfo(update,context):
         <code>wiki (palabra a buscar)</code>"""
     )
 
-#Funcion para el buscador en wikipedia
-# def searchWord(update, context):
-#     bot = context.bot
-#     updateMsg = getattr(update,"message", None)
-#     chatID = update.message.chat_id
-#     text = update.message.text #obtener el mensaje que envio el usuario por el chat
-    
-#     if text.startswith("wiki "):
-#         word = text.replace("wiki ","")
-#         bot.sendMessage(
-#             chat_id=chatID,
-#             text= f"{wiki.summary(word)}\n {wiki.page(word).url}"
-#        )
-#     bot.sendMessage(
-#         chat_id =chatID,
-#         text=text
-#     )
-#     print(text)
 
 #Start command
 def start(update,context):
