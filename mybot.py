@@ -1,4 +1,3 @@
-from decimal import ExtendedContext
 from telegram import message, parsemode, user
 from poll import start
 import telegram
