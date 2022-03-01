@@ -8,7 +8,7 @@ wiki.set_lang("es")
 
 
 #identificador del bot
-Token="1779155446:AAFu36Ef9BFP2mWX1Y_9qc9nA_nZfqh0_Us"
+Token=""
 
 
 
