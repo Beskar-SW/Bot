@@ -66,7 +66,7 @@ def echo(update, context):
 
     print(f" el usuario {username} ha enviado un mensaje al grupo")
 
-    badWord = "pta"
+    badWord = ""
 
     if badWord in text:
         deleteMsg(bot,chatID,messageID,username)
